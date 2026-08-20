@@ -11,6 +11,7 @@ If a task relates to checkout or payments:
 3. Use `Sources.md` when the task requires documentation or external systems.
 4. Read the relevant repository-level `AGENTS.md` before changing code.
 
+## Working rules
 
 - Report contradictions between documentation and code instead of silently choosing one.
 - Do not store secrets, tokens, or credentials in this workspace.
