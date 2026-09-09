@@ -1,21 +1,13 @@
-# Task: <id or short name>
+# Task: <title>
 
-## Spec
+Status: planned
 
-- Goal:
-- Scope:
-- Out of scope:
-- Done when:
+## Goal
 
-## Context
+## Repositories
 
-- Project:
-- Repositories:
-- Sources:
+## Context used
 
-## Working state
+## Progress
 
-- Findings:
-- Decisions:
-- Open questions:
-- Next step:
+## Verification

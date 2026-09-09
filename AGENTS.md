@@ -1,19 +1,20 @@
-# Agent Workspace
+# Agent Workspace: Feed Demo
 
-This workspace is my personal routing map for coding agents. Keep stable project context here and verify changing implementation details in the current code.
+This workspace routes agents to a small synthetic feed project. Do not search other folders under `Developer`.
 
 ## Routing
 
-If a task relates to checkout or payments:
+For requests containing “лента”, “выдача”, “feed”, “карточка”, or card analytics:
 
-1. Read `Projects/Checkout.md`.
-2. Resolve repository names and aliases through `Repositories.md`.
-3. Use `Sources.md` when the task requires documentation or external systems.
-4. Read the relevant repository-level `AGENTS.md` before changing code.
+1. Read `Projects/Feed.md`.
+2. Resolve exact repository paths through `Repositories.md`.
+3. Read `Sources.md` to choose the authoritative source for the detail you need.
+4. Read the target repository's `AGENTS.md` before changing code.
 
 ## Working rules
 
-- Report contradictions between documentation and code instead of silently choosing one.
-- Do not store secrets, tokens, or credentials in this workspace.
-- For work that spans repositories or sessions, create or update `Tasks/<id>.md` from `Tasks/_template.md`.
-- Add platform conventions only when a real task creates that need.
+- Treat all context as synthetic demo data.
+- Verify changing details in source code.
+- Report contradictions instead of guessing.
+- Run the target package tests after edits.
+- Do not modify analytics contracts unless the task explicitly changes the schema.
