@@ -5,6 +5,7 @@ The feed (лента, выдача) displays cards returned by a loader. Card an
 Scope:
 
 - iOS behavior: `ios-feed-app`
-- Canonical event schema: `analytics-contracts`
-- Feature changes belong in the app; event names and parameter schemas belong in contracts.
+- Approved analytics requirements: local Confluence stand-in routed by `Sources.md`
+- Typed event representation: `analytics-contracts`
+- Runtime behavior and behavioral checks: `ios-feed-app`
 - The current request concerns client-side tap handling. No backend or external system is in scope.

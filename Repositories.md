@@ -4,7 +4,7 @@ All paths are intentionally exact. Do not substitute similarly named repositorie
 
 | Alias | Purpose | Path |
 | --- | --- | --- |
-| `ios-feed-app` | Feed UI behavior and tests | `/Users/dimitrykodryan/Developer/feed-demo-repositories/ios-feed-app` |
-| `analytics-contracts` | Typed analytics event schemas | `/Users/dimitrykodryan/Developer/feed-demo-repositories/analytics-contracts` |
+| `ios-feed-app` | Feed behavior and checks | `/Users/kodryan/Developer/demo/repositories/ios-feed-app` |
+| `analytics-contracts` | Typed analytics event representations | `/Users/kodryan/Developer/demo/repositories/analytics-contracts` |
 
-For the card-tap task, inspect both repositories but make the feature change in `ios-feed-app`.
+For the card-tap task, inspect both repositories. Add approved typed representation in `analytics-contracts`; add runtime behavior and behavioral checks in `ios-feed-app`.

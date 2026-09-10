@@ -1,20 +1,19 @@
-# Agent Workspace: Feed Demo
+# Agent Workspace
 
-This workspace routes agents to a small synthetic feed project. Do not search other folders under `Developer`.
+This workspace contains project context and references to code and requirements.
 
-## Routing
+## Workspace structure
 
-For requests containing “лента”, “выдача”, “feed”, “карточка”, or card analytics:
+- `Projects/` — project context and boundaries.
+- `Repositories.md` — repository roles and local paths.
+- `Sources.md` — sources for requirements, contracts, and behavior.
 
-1. Read `Projects/Feed.md`.
-2. Resolve exact repository paths through `Repositories.md`.
-3. Read `Sources.md` to choose the authoritative source for the detail you need.
-4. Read the target repository's `AGENTS.md` before changing code.
+Choose relevant projects, repositories, and sources based on the user's task. Load only the context needed.
 
 ## Working rules
 
-- Treat all context as synthetic demo data.
+- Read the target repository's local instructions before changing code.
 - Verify changing details in source code.
 - Report contradictions instead of guessing.
 - Run the target package tests after edits.
-- Do not modify analytics contracts unless the task explicitly changes the schema.
+- Keep requirements, typed representation, and app behavior in the owners identified by `Sources.md`.
