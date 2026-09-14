@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This page stores my working context for Checkout: its scope, terminology, ownership, and relationships with other components.
+This example stores context for a large Checkout feature or initiative: its goals, scope, terminology, decisions, and dependencies. Read it when the request concerns this initiative; it is not a prerequisite for every change in a checkout repository.
 
 Describe the user journey and business boundary here.
 

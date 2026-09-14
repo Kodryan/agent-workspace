@@ -16,5 +16,5 @@ Choose sources by the question being answered, not merely by tool availability.
 - Requirements for an analytics event: check Jira and the analytics specification.
 - Actual wire payload: check the contract and current code.
 - Production behavior: check observability data.
-- Implementation details: verify against the user-specified revision or `main`; follow `Repositories.md` before switching a local checkout.
+- Implementation details: verify against the user-specified revision or `main`.
 - When sources disagree, show the conflict and identify which claim each source supports.
