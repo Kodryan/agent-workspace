@@ -20,5 +20,5 @@ Task notes preserve personal working context for work that spans repositories or
 ## After work
 
 - Record the final outcome and any remaining follow-up.
-- Move stable project knowledge to `../Projects/` and repository relationships to `../Repositories.md`.
+- Keep task-specific research findings in the task note. Move lasting feature or initiative context to `../Projects/` and repository relationships to `../Repositories.md`. Create those notes only when needed and add their routes to `../AGENTS.md`.
 - Do not copy secrets, tokens, credentials, or large source excerpts into task notes.

@@ -4,12 +4,18 @@ This workspace routes agents to a small synthetic feed project. Do not search ot
 
 ## Routing
 
-For requests containing “лента”, “выдача”, “feed”, “карточка”, or card analytics:
+Aliases select the context needed for a request; they do not require every request to load a project note first. A route may point to repository mappings in `Repositories.md`, a large feature or initiative in `Projects/`, or requirements, findings, and progress in `Tasks/`. Add those notes and their routes only when needed; this minimal demo has no project notes; task notes are created only when needed.
 
-1. Read `Projects/Feed.md`.
-2. Resolve exact repository paths through `Repositories.md`.
+| Request aliases | Context to read |
+| --- | --- |
+| “лента”, “выдача”, “feed”, “карточка”, card analytics, `ios-feed-app`, `analytics-contracts` | `Repositories.md` |
+
+For the feed route:
+
+1. Resolve exact repository paths and responsibilities through `Repositories.md`.
+2. Read the relevant repository's `AGENTS.md` before changing code.
 3. Read `Sources.md` to choose the authoritative source for the detail you need.
-4. Read the target repository's `AGENTS.md` before changing code.
+4. Verify the contract, implementation, and tests relevant to the request.
 
 ## Working rules
 
