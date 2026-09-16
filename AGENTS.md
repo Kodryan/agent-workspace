@@ -6,10 +6,10 @@ This workspace is my personal routing map for coding agents. Keep stable project
 
 Aliases select relevant context; there is no mandatory project-first sequence. Load only the notes needed for the request.
 
-| Request aliases | Context to read |
-| --- | --- |
-| `ios-app`, `app`, `main-app`, `payments-package`, `payments`, `checkout-contracts`, `contracts`, `checkout-backend`, `checkout-api` | `Repositories.md` |
-| checkout initiative | `Projects/Checkout.md` |
+| Request aliases                                                                                                                     | Context to read        |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| `ios-app`, `app`, `main-app`, `payments-package`, `payments`, `checkout-contracts`, `contracts`, `checkout-backend`, `checkout-api` | `Repositories.md`      |
+| checkout initiative                                                                                                                 | `Projects/Checkout.md` |
 
 - Add aliases for features, initiatives, and task notes when those notes are created. Aliases may point directly to `Projects/<name>.md` or `Tasks/<id>.md`.
 - Resolve repository locations and relationships through `Repositories.md` when code is needed.
